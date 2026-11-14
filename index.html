@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub Pages Site</title>
+  <style>
+    :root {
+      --bg-color: #f8fafc;
+      --text-color: #1e293b;
+      --muted-text: #64748b;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .tagline {
+      color: var(--muted-text);
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: var(--accent);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.6rem 1.25rem;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: background-color 0.2s;
+    }
+
+    .btn:hover {
+      background-color: var(--accent-hover);
+    }
+
+    section {
+      padding: 2.5rem 0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.15rem;
+    }
+
+    .card p {
+      color: var(--muted-text);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted-text);
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Hi, I'm Your Name</h1>
+      <p class="tagline">Developer, open-source contributor, and builder of cool things.</p>
+      <a href="https://github.com/yourusername" class="btn" target="_blank" rel="noopener">View GitHub Profile</a>
+    </header>
+
+    <section>
+      <h2>Featured Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Project One</h3>
+          <p>A brief description of what this repository does and the tech stack used to build it.</p>
+          <a href="https://github.com/yourusername/project-one" target="_blank" rel="noopener">View Repository &rarr;</a>
+        </div>
+
+        <div class="card">
+          <h3>Project Two</h3>
+          <p>Another cool project hosted on GitHub with documentation, live demos, and clean code.</p>
+          <a href="https://github.com/yourusername/project-two" target="_blank" rel="noopener">View Repository &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Hosted with GitHub Pages &bull; &copy; 2026 Your Name</p>
+    </footer>
+  </div>
+
+</body>
+</html>
